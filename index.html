@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>デザインパートナーTOMO | 優しく温かく行き届く</title>
+    <meta name="description" content="京都府在住のデザイナーです。優しく、温かく、行き届くデザインパートナーとして、幸せの輪を広げるお手伝いをします。">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="android-chrome-256x256.png">
+    <!-- adobe-fonts -->
+    <script>
+        (function (d) {
+            var config = {
+                kitId: 'hib7xfm',
+                scriptTimeout: 3000,
+                async: true
+            },
+                h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+        })(document);
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- ローディング画面 -->
+    <div class="loading">
+        <div class="loading__container">
+            <img src="images/img_lead_logo.png" alt="logo">
+            <p>WELCOME</p>
+        </div>
+        <div class="loading-screen"></div>
+    </div>
+    <header class="header-home">
+        <h1 class="header__logo">
+            <a href="index.html" class="nav__link">
+                <img src="images/img_footer_logo.png" alt="デザインパートナーTOMO">
+            </a>
+        </h1>
+    </header>
+    <main class="main">
+        <div class="fv">
+            <video src="images/mainvisual_pc.mp4" autoplay muted loop playsinline></video>
+            <div class="fv__maincopy">
+                <img src="images/mv_textanimation.gif" alt="優しく、温かく、行き届く" class="lazyload">
+            </div>
+            <div class="fv__inner">
+                <nav class="fv__nav">
+                    <div class="fv__item-logo">
+                        <a href="index.html">
+                            <img src="images/img_header__logo.png" alt="logo">
+                        </a>
+                    </div>
+                    <ul class="fv__list">
+                        <li class="fv__item">
+                            <a href="message.html">
+                                <span class="fv__title-ja">わたしのおもい</span>
+                                <br>
+                                <span class="fv__title">MESSAGE</span>
+                            </a>
+                        </li>
+                        <li class="fv__item">
+                            <a href="./works/index.html">
+                                <span class="fv__title-ja">つくったもの</span>
+                                <br>
+                                <span class="fv__title">WORKS</span>
+                            </a>
+                        </li>
+                        <li class="fv__item">
+                            <a href="#skill">
+                                <span class="fv__title-ja">できること</span>
+                                <br>
+                                <span class="fv__title">SKILL</span>
+                            </a>
+                        </li>
+                        <li class="fv__item">
+                            <a href="service.html">
+                                <span class="fv__title-ja">サービス</span>
+                                <br>
+                                <span class="fv__title">SERVICE</span>
+                            </a>
+                        </li>
+                        <li class="fv__item">
+                            <a href="contact.html">
+                                <span class="fv__title-ja">お問い合わせ</span>
+                                <br>
+                                <span class="fv__title">CONTACT</span>
+                            </a>
+                        </li>
+                        <li class="fv__item-sns">
+                            <a class="fv__sns" href="" target="_blank">
+                                <img src="images/img_instagram.png" alt="インスタグラム">
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <div class="menu_btn"><span></span><span></span><span></span></div>
+
+        <div id="lead" class="lead">
+            <div class="lead__inner offs">
+                <div class="lead__img" data-delay="0.2">
+                    <img src="images/lead__img.png" alt="ひらたともか">
+                </div>
+                <div class="lead__contents" data-delay="0.2">
+                    <div class="brand__logo">
+                        <img src="images/img_lead_logo.png" alt="ロゴ">
+                    </div>
+                    <p class="lead__title">
+                        「幸せの輪」を広げるために
+                    </p>
+                    <p class="lead__text">
+                        サービスやモノを提供するあなたと、<br class="spOnly">
+                        それを利用するお客さま。<br>
+                        感謝し、感謝される「幸せの輪」<br class="spOnly">
+                        が生まれ、どんどん広がっていく。<br>
+                        <br>
+                        そんな未来を実現するため、<br class="spOnly">
+                        優しく、温かく、行き届く<br>
+                        デザインパートナーとして<br class="spOnly">
+                        お手伝いさせていただきます。
+                    </p>
+
+                    <p class="btn-circle fadeUpTrigger">
+
+                        <a href="message.html" class="message__btn">
+                            メッセージを見る
+                        </a>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <section id="works" class="works">
+            <div class="works__inner">
+                <h2 class="section__title fadeUpTrigger">
+                    <span class="section__title-ja">つくったもの</span>
+                    <span class="section__title-en">WORKS</span>
+                </h2>
+
+                <ul class="works__list offs">
+                    <li class="works__item">
+                        <div class="works__img">
+                            <a href="./works/work-website_01.html">
+                                <div class="mask">
+                                    <img src="images/img_works_web_hairsalon_small.png" alt="website">
+                                    <p class="caption">
+                                        <span class="title">美容室のLP制作</span>
+                                        <span class="subtitle">LIFE hair design</span>
+                                        <span class="text">担当:デザイン・コーディング</span>
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="works__category">
+                            <span class="works__label">Webサイト
+                            </span>
+                            <span class="works__label">LP
+                            </span>
+                        </div>
+                    </li>
+                    <li class="works__item" data-delay="0.2">
+                        <div class="works__img">
+                            <a href="./works/work-banner_01.html">
+                                <div class="mask">
+                                    <img src="images/img_works_banner_burger.png" alt="banner">
+                                    <p class="caption">
+                                        <span class="title">ハンバーガーのバナー制作</span>
+                                        <span class="subtitle">デラックスバーガー</span>
+                                        <span class="text">担当:デザイン</span>
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="works__category">
+                            <span class="works__label">バナー
+                            </span>
+                            <span class="works__label">SNS広告
+                            </span>
+                        </div>
+                    </li>
+                    <li class="works__item" data-delay="0.4">
+                        <div class="works__img">
+                            <a href="./works/work-flyer_01.html">
+                                <div class="mask">
+                                    <img src="images/img_works_flyer_harisalon.png" alt="美容室のWebサイト">
+                                    <p class="caption">
+                                        <span class="title">美容室の新規オープンチラシ</span>
+                                        <span class="subtitle">LIFE hair design</span>
+                                        <span class="text">担当:デザイン</span>
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="works__category">
+                            <span class="works__label">チラシ
+                            </span>
+                        </div>
+
+                    </li>
+                </ul>
+                <p class="btn-circle fadeUpTrigger">
+
+                    <a href="./works/index.html" class="works__btn">
+                        つくったものを見る
+                    </a>
+                </p>
+            </div>
+        </section>
+
+        <section id="skill" class="skill">
+            <div class="skill__inner">
+                <h2 class="section__title  fadeUpTrigger">
+                    <span class="section__title-ja">できること</span>
+                    <span class="section__title-en">SKILL</span>
+                </h2>
+                <ul class="skill__list offs">
+                    <li class="skill__item">
+                        <div class="skill__content">
+                            <img src="images/img_skill_illustrator.png" alt="Illustrator" class="skill__img">
+                            <p class="skill__caption">Illustrator
+                            </p>
+                        </div>
+                    </li>
+                    <li class="skill__item" data-delay="0.2">
+                        <div class="skill__content">
+                            <img src="images/img_skill_photoshop.png" alt="Photoshop" class="skill__img">
+                            <p class="skill__caption">Photoshop
+                            </p>
+                        </div>
+                    </li>
+                    <li class="skill__item" data-delay="0.3">
+                        <div class="skill__content">
+                            <img src="images/img_skill_figma.png" alt="Figma" class="skill__img">
+                            <p class="skill__caption">Figma
+                            </p>
+                        </div>
+                    </li>
+                    <li class="skill__item" data-delay="0.4">
+                        <div class="skill__content">
+                            <img src="images/img_skill_canva.png" alt="Canva" class="skill__img">
+                            <p class="skill__caption">Canva
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+
+                <ul class="skill__list offs">
+                    <li class="skill__item">
+                        <div class="skill__content">
+                            <img src="images/img_skill_html.png" alt="HTML" class="skill__img">
+                            <p class="skill__caption">HTML
+                            </p>
+                        </div>
+                    </li>
+                    <li class="skill__item" data-delay="0.1">
+                        <div class="skill__content">
+                            <img src="images/img_skill_css.png" alt="CSS" class="skill__img">
+                            <p class=" skill__caption">CSS
+                            </p>
+                        </div>
+                    </li>
+                    <li class="skill__item" data-delay="0.2">
+                        <div class="skill__content">
+                            <img src="images/img_skill_JavaScript.png" alt="JavaScript" class="skill__img">
+                            <p class="skill__caption">JavaScript
+                            </p>
+                        </div>
+                    </li>
+                    <li class="skill__item" data-delay="0.3">
+                        <div class="skill__content">
+                            <img src="images/img_skill_sass.png" alt="Sass" class="skill__img">
+                            <p class="skill__caption">Sass
+                            </p>
+                        </div>
+                    </li>
+                    <li class="skill__item" data-delay="0.4">
+                        <div class="skill__content">
+                            <img src="images/img_skill_Github-Logo.png" alt="GitHub" class="skill__img">
+                            <p class="skill__caption">GitHub
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="service" class="service">
+            <div class="service__inner">
+                <h2 class="section__title  fadeUpTrigger">
+                    <span class="section__title-ja">サービス</span>
+                    <span class="section__title-en">SERVICE</span>
+                </h2>
+                <p class="service__message  fadeUpTrigger">デザインからコーディングまでワンストップで<br class="spOnly">
+                    担当できるWEBサイト制作をメインに、<br>
+                    デザインにかかわる様々なお仕事を承っております。
+                </p>
+
+                <ul class="service__list offs">
+                    <li class="service__item">
+                        <p class="service__number">01</p>
+                        <div class="service__img">
+                            <img src="images/img_service_web.png" alt="Webサイト">
+                        </div>
+                        <div class="service__body">
+                            <p class="service__title"> Webサイト制作</p>
+                            <div class="service__category">
+                                <span class="service__label">Webサイト</span>
+                                <span class="service__label">LP</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="service__item" data-delay="0.2">
+                        <p class="service__number">02</p>
+                        <div class="service__img">
+                            <img src="images/img_service_design.png" alt="Webサイト">
+                        </div>
+                        <div class="service__body">
+                            <p class="service__title">バナー制作</p>
+                            <div class="service__category">
+                                <span class="service__label">Web広告</span>
+                                <span class="service__label">SNS広告</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="service__item" data-delay="0.4">
+                        <p class="service__number">03</p>
+                        <div class="service__img">
+                            <img src="images/img_service_graphic.png" alt="Webサイト">
+                        </div>
+                        <div class="service__body">
+                            <p class="service__title">チラシ・名刺制作</p>
+                            <div class="service__category">
+                                <span class="service__label">チラシ</span>
+                                <span class="service__label">名刺</span>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <p class="btn-circle fadeUpTrigger">
+
+                    <a href="service.html" class="service__btn">
+                        サービスをくわしく見る
+                    </a>
+                </p>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="contact__inner fadeUpTrigger">
+                <h2 class="section__title-contact">
+                    <span class="ja">お問い合わせ</span>
+                    <span class="en">CONTACT</span>
+                </h2>
+
+                <p class="btn__area">
+                    <a href="contact.html" class="contact-btn">
+                        無料で相談する
+                        <img class="contact__img" src="images/e-mail.png" alt="e-mail">
+                    </a>
+                </p>
+                <p class="contact__text fadeUpTrigger">お仕事のご依頼や、<br class="spOnly">
+                    こんなことできるかなといった疑問、<br>
+                    こんなこと一緒にやらない？<br class="spOnly">
+                    などのお誘いなど、何でもお気軽にどうぞ！
+                </p>
+            </div>
+        </section>
+
+    </main>
+    <footer class="footer">
+        <div class="footer__inner">
+            <div class="footer__container">
+                <p class="footer__logo">
+                    <a href="index.html">
+                        <picture>
+                            <source media="(max-width:1000px)" srcset="images/img_header__logo.png">
+                            <img src="images/img_footer_logo.png" alt="デザインパートナーTOMO">
+                        </picture>
+                    </a>
+                </p>
+
+                <nav class="footer__nav">
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a href="message.html">
+                                <span class="footer__title-ja">わたしのおもい</span>
+                                <br>
+                                <span class="footer__title">MESSAGE</span>
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="./works/index.html">
+                                <span class="footer__title-ja">つくったもの</span>
+                                <br>
+                                <span class="footer__title">WORKS</span>
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="index.html#skill">
+                                <span class="footer__title-ja">できること</span>
+                                <br>
+                                <span class="footer__title">SKILL</span>
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="service.html">
+                                <span class="footer__title-ja">サービス</span>
+                                <br>
+                                <span class="footer__title">SERVICE</span>
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="contact.html">
+                                <span class="footer__title-ja">お問い合わせ</span>
+                                <br>
+                                <span class="footer__title">CONTACT</span>
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__sns" href="" target="_blank">
+                                <img src="images/img_instagram.png" alt="インスタグラム">
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <p class="footer__copy">
+                © 2024 Design Partner TOMO
+            </p>
+        </div>
+    </footer>
+
+    <script src="js/top.js"></script>
+</body>
+
+</html>
