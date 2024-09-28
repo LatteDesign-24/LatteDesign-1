@@ -152,6 +152,30 @@ $(function () {
         ]
     });
     }
+
+    if($('.line__slider').length > 0){ // このクラス名が0以上あるなら(存在するなら)
+        $('.line__slider').slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplay: true,
+            dots: true,
+            autoplaySpeed: 3000,
+            // centerMode: true,// 次の画像をちら見せ
+            // centerPadding: '5%',
+            responsive: [
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        arrows: false,
+                        centerMode: true,
+                        centerPadding: '8%',
+                    }
+                }
+            ]
+        });
+        }
 });
     
 /*serviceページ*/

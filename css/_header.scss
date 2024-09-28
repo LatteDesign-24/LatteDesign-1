@@ -30,10 +30,10 @@
 
     &__logo{
         img {
-            width: 200px;
+            width: 230px;
 
             @include media(xl){
-                width: 150px;
+                width: 140px;
                 position: relative;
                 z-index: 99;
             }
